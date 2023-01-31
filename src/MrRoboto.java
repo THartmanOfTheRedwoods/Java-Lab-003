@@ -1,6 +1,13 @@
 // Import the Scanner tool used for reading (All external packages/libraries/apis are imported similarly this)
 import java.util.Scanner;
 
+/**
+ * @author Trevor Hartman
+ *
+ * @author Alastiar M
+ */
+// I will continue to label future assignments as my screen name "crazyne55" but for this assignment I will use my real
+// name to prove that I am who I am
 public class MrRoboto {
     /**
      * Teaching Mr. Roboto how to listen to us.
@@ -15,5 +22,7 @@ public class MrRoboto {
 
         System.out.print("My name is Mr. Roboto, are you Kilroy? ");
         // Write your program here
+        String userInput = scanner.nextLine();
+        System.out.println(domo+userInput);
     }
 }

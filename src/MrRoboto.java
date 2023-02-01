@@ -1,5 +1,13 @@
 // Import the Scanner tool used for reading (All external packages/libraries/apis are imported similarly this)
+/**
+ * Author: Owen van Mantgem
+ *
+ *Version: 1.5
+ *
+ */
+
 import java.util.Scanner;
+
 
 public class MrRoboto {
     /**
@@ -13,7 +21,10 @@ public class MrRoboto {
         // Concatenate the user response to this String.
         String domo = "Domo arigato ";
 
-        System.out.print("My name is Mr. Roboto, are you Kilroy? ");
+
+        System.out.print("My name is Mr. Roboto, are you Kilroy?");
         // Write your program here
+        domo = domo + scanner.nextLine();
+        System.out.println(domo);
     }
 }

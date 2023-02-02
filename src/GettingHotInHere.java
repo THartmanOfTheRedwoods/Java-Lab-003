@@ -1,3 +1,9 @@
+/**
+ * @author Trevor Hartman
+ * @author Mike Quist
+ * @since Version 1.0
+ */
+
 import java.util.Scanner;
 
 public class GettingHotInHere {
@@ -10,5 +16,9 @@ public class GettingHotInHere {
         Scanner scanner = new Scanner(System.in);
         System.out.print("What is the temperature in °F: ");
         int number = scanner.nextInt();
+        System.out.println(number +"°F");
+        System.out.println((number-32.0) * (5.0/9.0) + "°C");
+        double number2 = ((number-32.0) * (5.0/9.0));
+        System.out.print((int) number2 + "°C");
     }
 }

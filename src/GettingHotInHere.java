@@ -7,8 +7,11 @@ public class GettingHotInHere {
      **/
     public static void main(String[] args) {
         // The instantiation code for a Scanner instance.
-        Scanner scanner = new Scanner(System.in);
+        float temp;
         System.out.print("What is the temperature in °F: ");
-        int number = scanner.nextInt();
+        Scanner sc= new Scanner(System.in);
+        temp=sc.nextFloat();
+        temp=((temp - 32)*5)/9;
+        System.out.println("If it were 2°C warmer it would be:" + 2 + temp );
     }
 }

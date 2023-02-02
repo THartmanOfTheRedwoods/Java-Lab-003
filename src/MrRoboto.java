@@ -1,6 +1,17 @@
 // Import the Scanner tool used for reading (All external packages/libraries/apis are imported similarly this)
+import java.io.InputStreamReader;
+import java.io.Reader;
 import java.util.Scanner;
-
+import java.util.regex.Pattern;
+import java.util.stream.Stream;
+/**
+ *
+ * @author Trevor Hartman
+ * @author Colton Simpson
+ *
+ * @since Version 1.0
+ *
+ */
 public class MrRoboto {
     /**
      * Teaching Mr. Roboto how to listen to us.
@@ -15,5 +26,12 @@ public class MrRoboto {
 
         System.out.print("My name is Mr. Roboto, are you Kilroy? ");
         // Write your program here
+        System.out.println("Type something");
+        String message = scanner.nextLine();
+        System.out.println(domo + message);
+
+
+
+
     }
 }

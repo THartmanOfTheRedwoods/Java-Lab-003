@@ -1,3 +1,6 @@
+//* author Trevor Hartman
+//* author Misha Osborne
+
 // Import the Scanner tool used for reading (All external packages/libraries/apis are imported similarly this)
 import java.util.Scanner;
 
@@ -15,5 +18,7 @@ public class MrRoboto {
 
         System.out.print("My name is Mr. Roboto, are you Kilroy? ");
         // Write your program here
+        System.out.println("no, I'm Stan");
+        System.out.println("Domo arigato no, I'm Stan");
     }
 }

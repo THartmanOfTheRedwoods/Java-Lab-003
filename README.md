@@ -15,10 +15,10 @@ Explore the behavior of the `System.out.printf` function when displaying values 
 2. Display a `double` using `%d`.
 3. Try using two format specifiers but provide only one value.
 
-# **Instructions:**
+### **Instructions:**
 For each of the issues above, screenshot and add the error images to this repo named **error01.png, error02.png, and error003.png** or simply edit this README.md and use markdown to list the error messages received.
 
-# **Note:**
+### **Note:**
 Your answers to this exercise should be added using Markdown into the project's `README.md` file so that they get committed with the project's code..
 
 ---

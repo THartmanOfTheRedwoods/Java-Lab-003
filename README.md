@@ -12,8 +12,11 @@ Explore the behavior of the `System.out.printf` function when displaying values 
 
 **Printf Format Exploration:**
 1. Use `printf` to display a value of type `int` using `%f`.
+![img.png](img.png)
 2. Display a `double` using `%d`.
+![img_1.png](img_1.png)
 3. Try using two format specifiers but provide only one value.
+![img_2.png](img_2.png)
 
 ### **Instructions:**
 For each of the issues above, screenshot and add the error images to this repo named **error01.png, error02.png, and error003.png** or simply edit this README.md and use markdown to list the error messages received.

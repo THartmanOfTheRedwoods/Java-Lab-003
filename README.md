@@ -22,9 +22,9 @@ For each of the issues above, screenshot and add the error images to this repo n
 Your answers to this exercise should be added using Markdown into the project's `README.md` file so that they get committed with the project's code..
 
 ### **Error Images**
-- [error01.png](..%2F..%2FOneDrive%2FPictures%2FScreenshots%2Ferror01.png)
-- [error02.png](..%2F..%2FOneDrive%2FPictures%2FScreenshots%2Ferror02.png)
-- [error03.png](..%2F..%2FOneDrive%2FPictures%2FScreenshots%2Ferror03.png)
+![error01.png](..%2F..%2FOneDrive%2FPictures%2FScreenshots%2Ferror01.png)
+![error02.png](..%2F..%2FOneDrive%2FPictures%2FScreenshots%2Ferror02.png)
+![error03.png](..%2F..%2FOneDrive%2FPictures%2FScreenshots%2Ferror03.png)
 ---
 
 ## Part 2: Celsius to Fahrenheit Converter

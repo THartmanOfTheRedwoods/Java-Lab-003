@@ -12,11 +12,43 @@ Explore the behavior of the `System.out.printf` function when displaying values 
 
 **Printf Format Exploration:**
 1. Use `printf` to display a value of type `int` using `%f`.
+'''C:\Users\is-student\.jdks\openjdk-21.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\lib\idea_rt.jar=58713:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\is-student\IdeaProjectsq\Java-Lab-003\out\production\Java-Lab-003 Format
+   Exception in thread "main" java.util.IllegalFormatConversionException: f != java.lang.Integer
+   at java.base/java.util.Formatter$FormatSpecifier.failConversion(Formatter.java:4515)
+   at java.base/java.util.Formatter$FormatSpecifier.printFloat(Formatter.java:3079)
+   at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:3027)
+   at java.base/java.util.Formatter.format(Formatter.java:2791)
+   at java.base/java.io.PrintStream.implFormat(PrintStream.java:1367)
+   at java.base/java.io.PrintStream.format(PrintStream.java:1346)
+   at java.base/java.io.PrintStream.printf(PrintStream.java:1245)
+   at Format.main(Format.java:8)'
 2. Display a `double` using `%d`.
+'''C:\Users\is-student\.jdks\openjdk-21.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\lib\idea_rt.jar=58788:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\is-student\IdeaProjectsq\Java-Lab-003\out\production\Java-Lab-003 Format
+   Exception in thread "main" java.util.IllegalFormatConversionException: d != java.lang.Double
+   at java.base/java.util.Formatter$FormatSpecifier.failConversion(Formatter.java:4515)
+   at java.base/java.util.Formatter$FormatSpecifier.printInteger(Formatter.java:3066)
+   at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:3021)
+   at java.base/java.util.Formatter.format(Formatter.java:2791)
+   at java.base/java.io.PrintStream.implFormat(PrintStream.java:1367)
+   at java.base/java.io.PrintStream.format(PrintStream.java:1346)
+   at java.base/java.io.PrintStream.printf(PrintStream.java:1245)
+   at Format.main(Format.java:8)'
 3. Try using two format specifiers but provide only one value.
+'''C:\Users\is-student\.jdks\openjdk-21.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\lib\idea_rt.jar=58836:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\is-student\IdeaProjectsq\Java-Lab-003\out\production\Java-Lab-003 Format
+   10.000000Exception in thread "main" java.util.IllegalFormatConversionException: d != java.lang.Double
+   at java.base/java.util.Formatter$FormatSpecifier.failConversion(Formatter.java:4515)
+   at java.base/java.util.Formatter$FormatSpecifier.printInteger(Formatter.java:3066)
+   at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:3021)
+   at java.base/java.util.Formatter.format(Formatter.java:2791)
+   at java.base/java.io.PrintStream.implFormat(PrintStream.java:1367)
+   at java.base/java.io.PrintStream.format(PrintStream.java:1346)
+   at java.base/java.io.PrintStream.printf(PrintStream.java:1245)
+   at Format.main(Format.java:9)'
+
 
 ### **Instructions:**
 For each of the issues above, screenshot and add the error images to this repo named **error01.png, error02.png, and error003.png** or simply edit this README.md and use markdown to list the error messages received.
+
 
 ### **Note:**
 Your answers to this exercise should be added using Markdown into the project's `README.md` file so that they get committed with the project's code..

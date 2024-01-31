@@ -18,6 +18,21 @@ Explore the behavior of the `System.out.printf` function when displaying values 
 ### **Instructions:**
 For each of the issues above, screenshot and add the error images to this repo named **error01.png, error02.png, and error003.png** or simply edit this README.md and use markdown to list the error messages received.
 
+Kelten's note
+Main error messages I got
+1. 8:2 java: reached end of file while parsing
+2. java: class, interface, enum, or record expected
+3. use --enable-preview to enable unnamed classes
+4. Exception in thread "main" java.util.IllegalFormatConversionException: f != java.lang.Integer
+at java.base/java.util.Formatter$FormatSpecifier.failConversion(Formatter.java:4515)
+at java.base/java.util.Formatter$FormatSpecifier.printFloat(Formatter.java:3079)
+at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:3027)
+at java.base/java.util.Formatter.format(Formatter.java:2791)
+at java.base/java.io.PrintStream.implFormat(PrintStream.java:1367)
+at java.base/java.io.PrintStream.format(PrintStream.java:1346)
+at java.base/java.io.PrintStream.printf(PrintStream.java:1245)
+at PF.main(java.java:4)**
+
 ### **Note:**
 Your answers to this exercise should be added using Markdown into the project's `README.md` file so that they get committed with the project's code..
 
@@ -64,6 +79,9 @@ Enter a total number of seconds: 5000
 
 **Hint:**
 * The modulus operator is the remainder operator and will simplify the calculation.
+
+Editors note here
+I looked up online to find a way to calculate seconds to Hours Minutes and remaining Seconds cause I got tired of trying to do it myself
 
 ### Submission
 Follow these steps for submission:

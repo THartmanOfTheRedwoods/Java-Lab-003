@@ -54,9 +54,10 @@ public class TempConvert {
         System.out.println("Enter a total number of seconds: ");
         line = in.nextInt();
 
-        hours = line / 3600;
-        minutes = (line%(hours*3600)) / 60;
-        seconds = (line%(hours*3600+minutes*60));
+        double hoursDouble = line / 3600.0; // handles the user entering seconds under 3600.
+        hours  = (int) hoursDouble;
+        minutes = (line % 3600) / 60;
+        seconds = line % 60;
 
         System.out.printf("%d seconds = %d hours, %d minutes, and %d seconds.\n", line, hours, minutes, seconds);
         

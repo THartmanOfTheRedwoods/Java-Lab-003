@@ -22,6 +22,10 @@ For each of the issues above, screenshot and add the error images to this repo n
 Your answers to this exercise should be added using Markdown into the project's `README.md` file so that they get committed with the project's code..
 
 ---
+# Answers:
+1. Argument type 'int' does not match the type of the format specifier '%f'
+2. Argument type 'double' does not match the type of the format specifier '%d'
+3. Too few arguments for format string (found: 1, expected: 2)
 
 ## Part 2: Celsius to Fahrenheit Converter
 
@@ -48,8 +52,7 @@ Enter a temperature in Celsius: 24
 
 ## Part 3: Seconds to Time Converter
 
-**Objective:**
-Write a Java program that converts a total number of seconds to hours, minutes, and seconds.
+**Objective:**Write a Java program that converts a total number of seconds to hours, minutes, and seconds.
 
 **Steps:**
 1. Prompt the user for input.

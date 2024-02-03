@@ -18,6 +18,36 @@ Explore the behavior of the `System.out.printf` function when displaying values 
 ### **Instructions:**
 For each of the issues above, screenshot and add the error images to this repo named **error01.png, error02.png, and error003.png** or simply edit this README.md and use markdown to list the error messages received.
 
+### **First Error;**
+Exception in thread "main" java.util.IllegalFormatConversionException: f != java.lang.Integer
+at java.base/java.util.Formatter$FormatSpecifier.failConversion(Formatter.java:4515)
+at java.base/java.util.Formatter$FormatSpecifier.printFloat(Formatter.java:3079)
+at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:3027)
+at java.base/java.util.Formatter.format(Formatter.java:2791)
+at java.base/java.io.PrintStream.implFormat(PrintStream.java:1367)
+at java.base/java.io.PrintStream.format(PrintStream.java:1346)
+at java.base/java.io.PrintStream.printf(PrintStream.java:1245)
+at Format.main(Format.java:5)
+
+### **Second error;**
+Exception in thread "main" java.util.IllegalFormatConversionException: d != java.lang.Double
+at java.base/java.util.Formatter$FormatSpecifier.failConversion(Formatter.java:4515)
+at java.base/java.util.Formatter$FormatSpecifier.printInteger(Formatter.java:3066)
+at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:3021)
+at java.base/java.util.Formatter.format(Formatter.java:2791)
+at java.base/java.io.PrintStream.implFormat(PrintStream.java:1367)
+at java.base/java.io.PrintStream.format(PrintStream.java:1346)
+at java.base/java.io.PrintStream.printf(PrintStream.java:1245)
+at Format.main(Format.java:5)
+
+### **Third error;**
+Exception in thread "main" java.util.MissingFormatArgumentException: Format specifier '%f'
+at java.base/java.util.Formatter.format(Formatter.java:2790)
+at java.base/java.io.PrintStream.implFormat(PrintStream.java:1367)
+at java.base/java.io.PrintStream.format(PrintStream.java:1346)
+at java.base/java.io.PrintStream.printf(PrintStream.java:1245)
+at Format.main(Format.java:5)
+
 ### **Note:**
 Your answers to this exercise should be added using Markdown into the project's `README.md` file so that they get committed with the project's code..
 

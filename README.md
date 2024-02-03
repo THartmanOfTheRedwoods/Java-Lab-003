@@ -25,7 +25,7 @@ For each of the issues above, screenshot and add the error images to this repo n
 	at java.base/java.io.PrintStream.implFormat(PrintStream.java:1367)
 	at java.base/java.io.PrintStream.format(PrintStream.java:1346)
 	at java.base/java.io.PrintStream.printf(PrintStream.java:1245)
-	at FormatSpecifier.main(FormatSpecifier.java:7)
+	at FormatSpecifier.main(FormatSpecifier.java:7) 
 ### **Note:**
 Your answers to this exercise should be added using Markdown into the project's `README.md` file so that they get committed with the project's code..
 

@@ -21,7 +21,39 @@ For each of the issues above, screenshot and add the error images to this repo n
 ### **Note:**
 Your answers to this exercise should be added using Markdown into the project's `README.md` file so that they get committed with the project's code..
 
----
+--- My Error code
+### 1.
+C:\Users\rigel\.jdks\openjdk-21.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.2\lib\idea_rt.jar=59747:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.2\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\rigel\IdeaProjects\Java-Lab-003\out\production\Java-Lab-003 TempConvert
+Exception in thread "main" java.util.MissingFormatArgumentException: Format specifier '%f'
+at java.base/java.util.Formatter.format(Formatter.java:2790)
+at java.base/java.io.PrintStream.implFormat(PrintStream.java:1367)
+at java.base/java.io.PrintStream.format(PrintStream.java:1346)
+at java.base/java.io.PrintStream.printf(PrintStream.java:1245)
+at TempConvert.main(TempConvert.java:9)
+
+Process finished with exit code 1
+### 2.
+C:\Users\rigel\.jdks\openjdk-21.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.2\lib\idea_rt.jar=52558:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.2\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\rigel\IdeaProjects\Java-Lab-003\out\production\Java-Lab-003 TempConvert
+Exception in thread "main" java.util.MissingFormatArgumentException: Format specifier '%d'
+at java.base/java.util.Formatter.format(Formatter.java:2790)
+at java.base/java.io.PrintStream.implFormat(PrintStream.java:1367)
+at java.base/java.io.PrintStream.format(PrintStream.java:1346)
+at java.base/java.io.PrintStream.printf(PrintStream.java:1245)
+at TempConvert.main(TempConvert.java:8)
+
+Process finished with exit code 1
+
+### 3.
+C:\Users\rigel\.jdks\openjdk-21.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.2\lib\idea_rt.jar=52651:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.2\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\rigel\IdeaProjects\Java-Lab-003\out\production\Java-Lab-003 TempConvert
+Exception in thread "main" java.util.MissingFormatArgumentException: Format specifier '%f'
+at java.base/java.util.Formatter.format(Formatter.java:2790)
+at java.base/java.io.PrintStream.implFormat(PrintStream.java:1367)
+at java.base/java.io.PrintStream.format(PrintStream.java:1346)
+at java.base/java.io.PrintStream.printf(PrintStream.java:1245)
+at TempConvert.main(TempConvert.java:6)
+
+Process finished with exit code 1
+
 
 ## Part 2: Celsius to Fahrenheit Converter
 

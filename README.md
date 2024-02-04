@@ -22,7 +22,16 @@ For each of the issues above, screenshot and add the error images to this repo n
 Your answers to this exercise should be added using Markdown into the project's `README.md` file so that they get committed with the project's code..
 
 ---
+### **The errors I received are as follows:**
+**Error #1:**
+![Error001](Error001.png)
 
+**Error #2:**
+![Error002](Error002.png)
+
+**Error #3:**
+![Error003](Error003.png)
+---
 ## Part 2: Celsius to Fahrenheit Converter
 
 **Objective:**

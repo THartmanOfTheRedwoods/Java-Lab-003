@@ -101,7 +101,7 @@ Process finished with exit code 1
 
 Process finished with exit code 1
 
-3.C:\Users\ravin\.jdks\openjdk-21.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.2\lib\idea_rt.jar=64015:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.2\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\ravin\IdeaProjects\Java-Lab-003\out\production\Java-Lab-003 TempConvert
+3. C:\Users\ravin\.jdks\openjdk-21.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.2\lib\idea_rt.jar=64015:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.2\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\ravin\IdeaProjects\Java-Lab-003\out\production\Java-Lab-003 TempConvert
 value = Exception in thread "main" java.util.IllegalFormatConversionException: d != java.lang.Double
 at java.base/java.util.Formatter$FormatSpecifier.failConversion(Formatter.java:4515)
 at java.base/java.util.Formatter$FormatSpecifier.printInteger(Formatter.java:3066)

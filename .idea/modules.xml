@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Error images/Error images.iml" filepath="$PROJECT_DIR$/Error images/Error images.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java-Lab-003.iml" filepath="$PROJECT_DIR$/Java-Lab-003.iml" />
     </modules>
   </component>

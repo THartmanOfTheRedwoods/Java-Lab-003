@@ -20,7 +20,9 @@ For each of the issues above, screenshot and add the error images to this repo n
 
 ### **Note:**
 Your answers to this exercise should be added using Markdown into the project's `README.md` file so that they get committed with the project's code..
-
+![1.](error01.png)
+![2.](error02.png)
+![3.](error03.png)
 ---
 
 ## Part 2: Celsius to Fahrenheit Converter

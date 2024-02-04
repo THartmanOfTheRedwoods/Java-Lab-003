@@ -72,3 +72,37 @@ Follow these steps for submission:
 3. Push it to your Remote/origin branch (i.e., GitHub: Feature01 -> origin/Feature01).
 4. Issue a Pull request to my instructor repo.
 5. **Make sure to COPY the Pull request URL and submit it for the lab/assignment in Canvas.**
+
+### ERROR 01
+Exception in thread "main" java.util.IllegalFormatConversionException: f != java.lang.Integer
+at java.base/java.util.Formatter$FormatSpecifier.failConversion(Formatter.java:4515)
+at java.base/java.util.Formatter$FormatSpecifier.printFloat(Formatter.java:3079)
+at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:3027)
+at java.base/java.util.Formatter.format(Formatter.java:2791)
+at java.base/java.io.PrintStream.implFormat(PrintStream.java:1367)
+at java.base/java.io.PrintStream.format(PrintStream.java:1346)
+at java.base/java.io.PrintStream.printf(PrintStream.java:1245)
+at Test.main(Test.java:4)
+
+Process finished with exit code 1
+### ERR0R O2
+Exception in thread "main" java.util.IllegalFormatConversionException: d != java.lang.Double
+at java.base/java.util.Formatter$FormatSpecifier.failConversion(Formatter.java:4515)
+at java.base/java.util.Formatter$FormatSpecifier.printInteger(Formatter.java:3066)
+at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:3021)
+at java.base/java.util.Formatter.format(Formatter.java:2791)
+at java.base/java.io.PrintStream.implFormat(PrintStream.java:1367)
+at java.base/java.io.PrintStream.format(PrintStream.java:1346)
+at java.base/java.io.PrintStream.printf(PrintStream.java:1245)
+at Test.main(Test.java:4)
+
+Process finished with exit code 1
+### ERR0R O3
+Exception in thread "main" java.util.MissingFormatArgumentException: Format specifier '%f'
+at java.base/java.util.Formatter.format(Formatter.java:2790)
+at java.base/java.io.PrintStream.implFormat(PrintStream.java:1367)
+at java.base/java.io.PrintStream.format(PrintStream.java:1346)
+at java.base/java.io.PrintStream.printf(PrintStream.java:1245)
+at Test.main(Test.java:4)
+
+Process finished with exit code 1

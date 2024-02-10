@@ -20,6 +20,19 @@ For each of the issues above, screenshot and add the error images to this repo n
 
 ### **Note:**
 Your answers to this exercise should be added using Markdown into the project's `README.md` file so that they get committed with the project's code..
+---
+
+Errors in Printf format:
+
+Exception in thread "main" java.util.IllegalFormatConversionException: f != java.lang.Integer
+at java.base/java.util.Formatter$FormatSpecifier.failConversion(Formatter.java:4515)
+at java.base/java.util.Formatter$FormatSpecifier.printFloat(Formatter.java:3079)
+at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:3027)
+at java.base/java.util.Formatter.format(Formatter.java:2791)
+at java.base/java.io.PrintStream.implFormat(PrintStream.java:1367)
+at java.base/java.io.PrintStream.format(PrintStream.java:1346)
+at java.base/java.io.PrintStream.printf(PrintStream.java:1245)
+at Printf.main(Printf.java:5)
 
 ---
 

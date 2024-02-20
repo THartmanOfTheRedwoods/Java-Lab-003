@@ -18,8 +18,13 @@ Explore the behavior of the `System.out.printf` function when displaying values 
 ### **Instructions:**
 For each of the issues above, screenshot and add the error images to this repo named **error01.png, error02.png, and error003.png** or simply edit this README.md and use markdown to list the error messages received.
 
+# **ERROR MESSAGES:**
+1. Exception in thread "main" java.util.IllegalFormatConversionException: f != java.lang.Integer
+2. Exception in thread "main" java.util.IllegalFormatConversionException: d != java.lang.Double
+3. Exception in thread "main" java.util.MissingFormatArgumentException: Format specifier '%d'
+
 ### **Note:**
-Your answers to this exercise should be added using Markdown into the project's `README.md` file so that they get committed with the project's code..
+Your answers to this exercise should be added using Markdown into the project's `README.md` file so that they get committed with the project's code.
 
 ---
 
@@ -34,7 +39,7 @@ Remember, all Java programs need a main method because that's where every Java p
 2. Read a `double` value from the keyboard.
 3. Calculate the result using the formula: `F = C × 9/5 + 32`.
 4. Format the output to one decimal place.
-5. Test the program by entering a temperature in Celsius.
+5. TempConvert the program by entering a temperature in Celsius.
 
 **Example Output:**
 ```mathematica
